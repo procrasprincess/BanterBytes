@@ -30,24 +30,24 @@
 ```
 banterbytes/                    # Django project root directory
 ├── banterbytes/                # Django project configuration directory
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
+│   ├── __init__.py             # Indicates a Python package
+│   ├── asgi.py                 # ASGI config for async web servers
+│   ├── settings.py             # Settings/configuration for the Django project
+│   ├── urls.py                 # The URL declarations for the Django project
+│   └── wsgi.py                 # WSGI config for web servers
 ├── base/                       # Django app directory
 │   ├── migrations/             # Database migration files
-│   │   └── __init__.py
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── tests.py
-│   └── views.py
-├── templates/                  # Templates directory
-│   ├── home.html
-│   ├── navbar.html
-│   └── room.html
-├── db.sqlite3                  # SQLite database file
-└── manage.py                   # Django's command-line utility for administrative tasks
+│   ├── templates/              # Template files specific to the 'base' app
+│   │   └── base/
+│   │       ├── home.html       # Home page template for the 'base' app
+│   │       └── room.html       # Room page template for the 'base' app
+│   ├── admin.py                # Admin site configuration for the 'base' app
+│   ├── apps.py                 # Application configuration for the 'base' app
+│   ├── models.py               # Database models for the 'base' app
+│   ├── tests.py                # Test suite for the 'base' app
+│   └── views.py                # Views for the 'base' app
+├── templates/                  # Global templates directory
+│   └── navbar.html             # Navigation bar template
+├── db.sqlite3                  # Default SQLite database file used by Django
+└── manage.py                   # Command-line utility for administrative tasks
 ```
