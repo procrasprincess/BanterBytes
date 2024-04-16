@@ -27,24 +27,25 @@
 
 ### Structure
 
-├── banterbytes            # Django project root directory
-│   ├── banterbytes        # Django project configuration directory
-│   │   ├── __init__.py
-│   │   ├── asgi.py
-│   │   ├── settings.py
-│   │   ├── urls.py
-│   │   └── wsgi.py
-│   └── base               # Django app directory
-│       ├── migrations     # Database migration files
-│       ├── __init__.py
-│       ├── admin.py
-│       ├── apps.py
-│       ├── models.py
-│       ├── tests.py
-│       └── views.py
-├── env                    # Virtual environment directory
-│   ├── bin
-│   └── lib
-│       └── python3.12
-├── db.sqlite3             # SQLite database file
-└── manage.py              # Django's command-line utility for administrative tasks
+banterbytes/                    # Django project root directory
+├── banterbytes/                # Django project configuration directory
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── base/                       # Django app directory
+│   ├── migrations/             # Database migration files
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── env/                        # Virtual environment directory
+├── templates/                  # Templates directory
+│   ├── home.html
+│   ├── navbar.html
+│   └── room.html
+├── db.sqlite3                  # SQLite database file
+└── manage.py                   # Django's command-line utility for administrative tasks
