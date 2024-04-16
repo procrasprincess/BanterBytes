@@ -42,7 +42,6 @@ banterbytes/                    # Django project root directory
 │   ├── models.py
 │   ├── tests.py
 │   └── views.py
-├── env/                        # Virtual environment directory
 ├── templates/                  # Templates directory
 │   ├── home.html
 │   ├── navbar.html
