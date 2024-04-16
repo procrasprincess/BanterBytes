@@ -27,6 +27,7 @@
 
 ### Structure
 
+```
 banterbytes/                    # Django project root directory
 ├── banterbytes/                # Django project configuration directory
 │   ├── __init__.py
@@ -36,6 +37,7 @@ banterbytes/                    # Django project root directory
 │   └── wsgi.py
 ├── base/                       # Django app directory
 │   ├── migrations/             # Database migration files
+│   │   └── __init__.py
 │   ├── __init__.py
 │   ├── admin.py
 │   ├── apps.py
@@ -48,3 +50,4 @@ banterbytes/                    # Django project root directory
 │   └── room.html
 ├── db.sqlite3                  # SQLite database file
 └── manage.py                   # Django's command-line utility for administrative tasks
+```
